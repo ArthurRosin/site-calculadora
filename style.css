@@ -1,0 +1,75 @@
+@font-face {
+    font-family: "casio-fx-702p";
+    src: url("fontes/casio-fx-702p.ttf") format("truetype");
+}
+
+*{
+    margin: auto;
+    padding: 0px;
+    font-family: "casio-fx-702p";
+    font-size: large;
+}
+
+.fundo{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(19, 30, 44);
+}
+
+h2{
+    text-align: center;
+    position: relative;
+    bottom: 3%;
+}
+
+p{
+    text-align: center;
+    position: relative;
+    bottom: 2%;
+    font-size: xx-small;
+    color: #be8796;
+}
+
+.aparelho{
+    padding-top:2%;
+    width: 33vh;
+    height: 22vw;
+    border-radius: 5px 5px 12px 12px;
+    background-color: #46566f;
+    position: relative;
+    top: 30%;
+}
+
+#visor{
+    display: flex;
+    width: 29vh;
+    height: 3vw;
+    background-color: rgba(0, 0, 0, 0.535);
+    margin-bottom:1% ;
+}
+
+#visor-2{
+    width: 28vh;
+    height: 2.5vw;
+    align-items: center;
+    background-color: #d8e4e4;
+    display: flex;
+    justify-content: right;
+    
+}
+
+table{
+    width: 28vh;
+    height: 15vw;
+}
+
+tr > td > button{
+    width: 7vh;
+    height: 3vw;
+}
+
+button{
+    background-color: #979dad;
+    border-radius: 10%;
+    border: 1px solid rgba(0, 0, 0, 0.412);
+}
